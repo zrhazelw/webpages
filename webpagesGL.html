@@ -1,13 +1,64 @@
 <!DOCTYPE html>
+<!--
+    -Name: [Zach Hazelwood]
+    -UnityID: [zrhazelw]
+    -Date: [11/7/2024]
+    -Assignment: Guided Lab 4
+    -Description: Guided Lab Assignment, about me webpage
+-->
 <html lang="en-US">
 
     <head>
         <meta charset="UTF-8" />
-        <title>My test page</title>
+        <title>About Zach Hazelwood</title>
+        <link href="webpagesGL.css" rel="stylesheet" type="text/css" />
     </head>
     
-    <body>
-    <p>This is my page</p>    
+    <body style="background-color: #008473;">
+        <!--Here is our welcome message -->
+        <header>
+            <h2>Welcome to my about me page!</h2>
+        </header>
+
+        <hr />
+
+        <!--A photo I like, styled by our CSS stylesheet -->
+        <img src="cool_cat.jpg" alt="A photo of a cool cat" id="photo-resize">
+
+    <!-- This is a path that I like to take through campus when heading to cross country practice -->
+    <p>Hello! My name is Zach Hazelwood, and my favorite part of campus is the greenway behind the tennis courts that goes behind <em>carmichael gym</em>. It has lots of <strong>flowers</strong> and a veiw of the creek! I walk that path to get to <em>cross country practice</em> and it is very relaxing. </p>    
+
+    <!-- This paragraph is demonstrating some more styling tags in HTML-->
+    <p>
+      C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub> is my favorite <del>element</del> <ins>chemical</ins> formula. E = mc<sup>2</sup> is my favorite equation.
+    </p>
+        
+
+    <br />
+    <br />
+
+    <!-- this is an unordered list-->
+    <h4>A list of my favorite things</h4>
+
+    <ul>
+        <li>Running</li>
+        <li>Flowers</li>
+        <li>Cats</li>
+        <li>Spending time with friends</li>
+        <li>Hunting</li>
+    </ul>
+
+    <br />
+
+    <!-- this is a table styled by our CSS stylesheet-->
+    <table class="table-border">
+        <tr><th>Name</th> <th>Characteristics</th> </tr>
+        <tr><td>Mo Farah</td> <td>Was a good runner for Great Britain in the Olympics</td> </tr>
+        <tr><td>Eliud Kipchoge</td> <td>One of the best marathon runners of all time</td> </tr>
+    </table>
+
+    <!-- this link will open in a new tab when clicked-->
+    <a href="https://wolfware.ncsu.edu" target="blank">Moodle</a>
 
     </body>
 </html>
