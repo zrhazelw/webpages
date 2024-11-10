@@ -6,6 +6,10 @@
  *Description: [Project designing a website page for e115]
  */
 
+ body {
+    background-color: blanchedalmond;
+ }
+
  .table-border {
     border: 10px solid #800080 
 
@@ -15,8 +19,4 @@
     border: 2px solid #025500;
     max-width: 200px;
     max-height: 250px;
- }
-
- body {
-    background-color: blanchedalmond;
  }
