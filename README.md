@@ -1,2 +1,2 @@
 # webpages
-e115
+E115 HTML Assignments
