@@ -1,0 +1,22 @@
+/*
+*Name:[Zach Hazelwood]
+ *UnityID: [zrhazelw]
+ *Date: [11/07/2024]
+ *Assignment: [html project]
+ *Description: [Project designing a website page for e115]
+ */
+
+ .table-border {
+    border: 2px solid #800080 
+
+ }
+
+ #photo-resize {
+    border: 2px solid #025500;
+    max-width: 200px;
+    max-height: 250px;
+ }
+
+ p{
+    background-color: blanchedalmond;
+ }
